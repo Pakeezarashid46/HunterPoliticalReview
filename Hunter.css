@@ -1,0 +1,222 @@
+*{
+  box-sizing: border-box;
+}
+
+/* Logo box starts here */
+
+.logoname{
+  color: #682e8d;
+  font-size: 2.2em;
+}
+.articlename{
+  color: #682e8d;
+  font-size: 2.2em;
+  margin-left: 100px;
+}
+.logo{
+  background-color: white;
+  /* border: solid black; */
+  height: 200px;
+  width: 60%;
+  /* margin: 20px; */
+  margin-left: auto;
+  margin-right:auto;
+
+}
+.image{
+  /* border: solid red; */
+  width: 170px;
+  display: inline-block;
+  float: left;
+}
+
+.logopic{
+  width: 100%;
+}
+
+.name{
+  /* border: solid blue; */
+  height: 100%;
+  width: 55%;
+  display: inline-block;
+  /* margin-left: 5%; */
+
+}
+.name h2{
+  font-size: 2.2em;
+  padding: 10% 10%;
+}
+
+.link{
+  /* border: solid blue; */
+  height: 100%;
+  width: 25%;
+  float: right;
+
+  display: inline-block;
+  /* margin-left: 3%; */
+}
+
+.link a img{
+  width: 25px;
+  height: 25px;
+  margin-left:10px;
+  margin-right: 5px;
+  margin-top: 20%;
+  float: left;
+}
+.link a img:hover{
+  background-color: purple;
+  border-radius: 5px;
+
+}
+
+/* LOGO Box ends here */
+
+/* Menu box starts here */
+
+.hornav{
+  /* border: solid black; */
+  /* margin: 50px; */
+  /* margin-top: 30px; */
+  margin-bottom: 50px;
+  /* background-color: #682e8d; */
+  margin-left: auto;
+  margin-right:auto;
+  position: sticky;
+  height: 70px;
+
+}
+
+.hornav a{
+  /* color: white; */
+  text-decoration: none;
+  width: 20%;
+  height: 100%;
+  margin-left: 4%;
+  display: inline-block;
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 20px;
+
+}
+
+.hornav a:hover{
+  color:  purple;
+  background-color: white;
+  border-radius: 5px;
+
+}
+/* End of menu box */
+
+/* Start of first slideshow of images */
+
+.imageslide{
+  width: 70%;
+  height: 600px;
+  /* border: solid black; */
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+
+}
+.imageslide img{
+  width: 33.3%;
+  height: 100%;
+  float: left;
+}
+.imagewrap{
+  /* border: solid yellow; */
+  width:300%;
+  height:100%;
+  animation: imageslide 10s infinite alternate ease-in-out;
+}
+@keyframes imageslide{
+  0%{margin-left: 0%;}
+  30%{margin-left: 0%;}
+  35%{margin-left: -100%;}
+  65%{margin-left: -100%;}
+   70%{margin-left: -200%;}
+  100%{margin-left: -200%;}
+
+}
+
+
+/* Articles start here */
+.outer{
+  /* border: solid black; */
+  height: 300px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.middle{
+  /* border: solid #682e8d; */
+  display: inline-block;
+  height: 100%;
+  width: 30%;
+  margin-left: 3%;
+}
+.middle:hover{
+  box-shadow: 4px 4px 5px gray;
+}
+.innerimg{
+  width: 100%;
+  /* border: solid red; */
+  height:240px;
+}
+.innerimg img{
+  width: 100%;
+  height: 100%;
+}
+.innertxt{
+  /* border: solid orange; */
+  width: 100%;
+  height: 55px;
+
+}
+.innertxt a{
+  text-decoration: none;
+  color: #682e8d;
+  font-size: 1.5em;
+/* border: solid black; */
+margin-left: 35%;
+
+}
+.line{
+  margin-top: 20px;
+  width: 90%;
+  color:  #682e8d;
+}
+/* Contact Info  */
+
+.contact{
+  width: 90%;
+  background-color: gray;
+  border: solid black;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.email{
+  width: 80px;
+  height: 80px;
+
+}
+.innercontact{
+  width: 30%;
+  height: 100%;
+  border: solid black;
+  margin-left: 3%;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+/*  */
